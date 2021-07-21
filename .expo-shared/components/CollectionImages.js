@@ -3,6 +3,8 @@ import {Text} from 'react-native';
 
 const CollectionImages = () => {
     return(
-        
+
     );
 }
+
+export default CollectionImages;
