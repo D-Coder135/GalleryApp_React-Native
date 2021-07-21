@@ -3,7 +3,9 @@ import {Text} from 'react-native';
 
 const CollectionImages = () => {
     return(
-
+        <Text>
+            CollectionImages
+        </Text>
     );
 }
 
