@@ -9,6 +9,8 @@ import PreviewImage from './components';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
+const stack = createStackNavigator();
+
 export default function App() {
   return (
     <View style={styles.container}>
