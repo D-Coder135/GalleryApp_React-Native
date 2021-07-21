@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import Collections from './components/Collections';
 import CollectionImages from './components/CollectionImages';
-import PreviewImage from './components/
+import PreviewImage from './components';
 
 import { NavigationContainer } from '@react-navigation/native';
 
