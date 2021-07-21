@@ -10,3 +10,7 @@ const CollectionImages = () => {
 }
 
 export default CollectionImages;
+
+const styles = StyleSheet.create({
+    
+});
