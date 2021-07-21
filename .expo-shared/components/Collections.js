@@ -10,3 +10,7 @@ const Collections = () => {
 }
 
 export default Collections;
+
+const styles = StyleSheet.create({
+    
+});
