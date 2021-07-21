@@ -18,7 +18,7 @@ export default function App() {
       <StatusBar style="auto" />
       <NavigationContainer>
         <Stack.Navigator>
-          
+           <Stack.Screen />
         </Stack.Navigator>
       </NavigationContainer>
 
