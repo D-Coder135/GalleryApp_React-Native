@@ -1,12 +1,12 @@
 import React from 'react';
 import {Text} from 'react-native';
 
-const CollectionImages = () => {
+const Collections = () => {
     return(
         <Text>
-            CollectionImages
+            Collections
         </Text>
     );
 }
 
-export default CollectionImages;
+export default Collections;
