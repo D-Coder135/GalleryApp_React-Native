@@ -4,13 +4,13 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import Collections from './components/Collections';
 import CollectionImages from './components/CollectionImages';
-import PreviewImage from './components';
+import PreviewImage from './components/PreviewImage';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import StackUtils from 'stack-utils';
 
-const stack = createStackNavigator();
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
