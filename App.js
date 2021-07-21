@@ -8,6 +8,7 @@ import PreviewImage from './components';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
+import StackUtils from 'stack-utils';
 
 const stack = createStackNavigator();
 
@@ -16,7 +17,9 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style="auto" />
       <NavigationContainer>
-        
+        <Stack.Navigator>
+          
+        </Stack.Navigator>
       </NavigationContainer>
 
     </View>
