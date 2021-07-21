@@ -11,3 +11,6 @@ const PreviewImage = () => {
 
 export default PreviewImage;
 
+const styles = StyleSheet.create({
+    
+});
