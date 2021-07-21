@@ -18,7 +18,7 @@ export default function App() {
       <StatusBar style="auto" />
       <NavigationContainer>
         <Stack.Navigator>
-           <Stack.Screen name = {'Collections'}/>
+           <Stack.Screen name = {'Collections'} component = {Collections}/>
         </Stack.Navigator>
       </NavigationContainer>
 
