@@ -1,5 +1,5 @@
 import React from 'react';
-import {Text} from 'react-native';
+import {Text, StyleSheet} from 'react-native';
 
 const PreviewImage = () => {
     return(
@@ -10,3 +10,4 @@ const PreviewImage = () => {
 }
 
 export default PreviewImage;
+
