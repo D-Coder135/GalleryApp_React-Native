@@ -78,5 +78,9 @@ const styles = StyleSheet.create({
         width: '48%',
         borderRadius: 20,
         marginBottom: 10,
+    },
+
+    image: {
+        
     }
 });
