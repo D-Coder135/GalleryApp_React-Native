@@ -1,3 +1,4 @@
+import { black } from 'ansi-colors';
 import React from 'react';
 import {Text, StyleSheet, Pressable, View} from 'react-native';
 import Icon from 'react-native-vector-icons/Entypo';
@@ -28,6 +29,7 @@ const styles = StyleSheet.create({
 
     header: {
         flex: 1,
+        backgroundColor: 'black',
     },
 
     body: {
