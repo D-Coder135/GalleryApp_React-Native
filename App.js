@@ -8,7 +8,6 @@ import PreviewImage from './components/PreviewImage';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import StackUtils from 'stack-utils';
 
 const Stack = createStackNavigator();
 
@@ -18,7 +17,7 @@ export default function App() {
       <StatusBar style="auto" />
       <NavigationContainer>
         <Stack.Navigator>
-           <Stack.Screen name = {'Collections'} component = {Collections}/>
+           <Stack.Screen name = {'Collections'} component = {Collections} />
         </Stack.Navigator>
       </NavigationContainer>
 
