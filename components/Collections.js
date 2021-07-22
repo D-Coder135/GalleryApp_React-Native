@@ -15,7 +15,7 @@ const Collections = ({navigation}) => {
 
             <View style = {styles.body}>
                 <ScrollView style = {styles.scroll}>
-
+                    <Pressable></Pressable>
                 </ScrollView>
             </View>
         </View>
