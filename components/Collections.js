@@ -52,6 +52,10 @@ const styles = StyleSheet.create({
         // backgroundColor: 'red',
     },
 
+    contentContainerStyle: {
+
+    },
+
     collection: {
         borderColor: 'red',
         borderWidth: 1,
