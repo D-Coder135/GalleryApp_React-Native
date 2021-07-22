@@ -3,7 +3,7 @@ import {Text, StyleSheet, Pressable, View} from 'react-native';
 
 const Collections = ({navigation}) => {
     return(
-        <View>
+        <View style = {styles.collectionComponent}>
             <View></View>
 
             <View></View>
