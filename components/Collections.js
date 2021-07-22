@@ -1,4 +1,3 @@
-import { black } from 'ansi-colors';
 import React from 'react';
 import {Text, StyleSheet, Pressable, View, ScrollView} from 'react-native';
 import Icon from 'react-native-vector-icons/Entypo';
