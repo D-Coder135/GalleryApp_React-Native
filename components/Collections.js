@@ -8,7 +8,7 @@ const Collections = ({navigation}) => {
 
             <View></View>
         </View>
-    );
+    )
 }
 
 export default Collections;
@@ -17,6 +17,6 @@ const styles = StyleSheet.create({
     collectionComponent: {
         flex: 1,
         borderColor: 'red',
-        borderRadius: 1,
+        borderWidth: 1,
     }
 });
