@@ -54,6 +54,6 @@ const styles = StyleSheet.create({
 
     collection: {
         borderColor: 'red',
-        
+        borderWidth: 1,
     }
 });
