@@ -49,6 +49,6 @@ const styles = StyleSheet.create({
     },
 
     scroll: {
-        
+        // backgroundColor: 'red',
     }
 });
