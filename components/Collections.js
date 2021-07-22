@@ -16,8 +16,8 @@ export default Collections;
 const styles = StyleSheet.create({
     collectionComponent: {
         flex: 1,
-        borderColor: 'red',
-        borderWidth: 1,
+        // borderColor: 'red',
+        // borderWidth: 1,
     },
 
     header: {
