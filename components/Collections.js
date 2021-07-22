@@ -65,5 +65,6 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         height: 200,
         width: '48%',
+        borderRadius: 20,
     }
 });
