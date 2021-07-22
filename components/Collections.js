@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, StyleSheet, Pressable} from 'react-native';
 
-const Collections = () => {
+const Collections = ({navigation}) => {
     return(
         <Pressable>
         <Text>
