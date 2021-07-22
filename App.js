@@ -19,6 +19,8 @@ export default function App() {
       <NavigationContainer>
         <Stack.Navigator>
            <Stack.Screen name = {'Collections'} component = {Collections} />
+           <Stack.Screen name = {'CollectionImages'} component = {CollectionImages} />
+           <Stack.Screen name = {'PreviewImage'} component = {PreviewImage} />
         </Stack.Navigator>
       </NavigationContainer>
 
