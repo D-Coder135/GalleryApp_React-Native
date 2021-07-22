@@ -14,7 +14,7 @@ const Collections = ({navigation}) => {
             </View>
 
             <View style = {styles.body}>
-                <ScrollView style = {styles.scroll}>
+                <ScrollView style = {styles.scroll} contentContainerStyle = {styles.contentContainerStyle}>
                     <Pressable style = {styles.collection}></Pressable>
                 </ScrollView>
             </View>
@@ -55,5 +55,6 @@ const styles = StyleSheet.create({
     collection: {
         borderColor: 'red',
         borderWidth: 1,
+        height: 200,
     }
 });
