@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
+import Constants from 'expo-constants';
 import { StyleSheet, Text, View } from 'react-native';
 
 import Collections from './components/Collections';
