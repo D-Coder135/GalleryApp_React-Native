@@ -4,7 +4,7 @@ import Icon from 'react-native-vector-icons/Entypo';
 
 const Collections = ({navigation}) => {
 
-    const [collection, setCollection] = useState([]);
+    const [collection, setCollection] = useState(Array.from({length: 10}).fill(undefined));
 
 
     return(
