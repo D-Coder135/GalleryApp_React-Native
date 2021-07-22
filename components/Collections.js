@@ -4,6 +4,8 @@ import {Text, StyleSheet, Pressable, View} from 'react-native';
 const Collections = ({navigation}) => {
     return(
         <View>
+            <View></View>
+
             
         </View>
     );
