@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
         flex: 1,
         color: 'white',
         fontSize: 32,
-
+        textAlign: 'center',
     },
 
     body: {
