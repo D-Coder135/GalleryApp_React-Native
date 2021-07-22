@@ -18,5 +18,9 @@ const styles = StyleSheet.create({
         flex: 1,
         borderColor: 'red',
         borderWidth: 1,
+    },
+
+    header: {
+        
     }
 });
