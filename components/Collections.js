@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     },
 
     headerText: {
-
+        color: 'white'
     },
 
     body: {
