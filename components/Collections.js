@@ -46,5 +46,9 @@ const styles = StyleSheet.create({
 
     body: {
         flex: 9,
+    },
+
+    scroll: {
+        
     }
 });
