@@ -53,6 +53,7 @@ const styles = StyleSheet.create({
     },
 
     collection: {
+        borderColor: 'red',
         
     }
 });
