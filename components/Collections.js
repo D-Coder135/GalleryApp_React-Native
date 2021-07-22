@@ -33,7 +33,9 @@ const styles = StyleSheet.create({
     },
 
     headerText: {
-        color: 'white'
+        color: 'white',
+        fontSize: 32,
+        
     },
 
     body: {
