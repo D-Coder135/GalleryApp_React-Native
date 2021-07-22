@@ -5,7 +5,9 @@ const Collections = ({navigation}) => {
     return(
         <View style = {styles.collectionComponent}>
             <View style = {styles.header}>
-                <Text></Text>
+                <Text>
+                    Collections
+                </Text>
             </View>
 
             <View style = {styles.body}></View>
