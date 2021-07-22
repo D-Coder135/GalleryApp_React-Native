@@ -14,5 +14,7 @@ const Collections = ({navigation}) => {
 export default Collections;
 
 const styles = StyleSheet.create({
-    
+    collectionComponent: {
+        
+    }
 });
