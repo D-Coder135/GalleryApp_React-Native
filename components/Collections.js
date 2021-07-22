@@ -3,7 +3,7 @@ import {Text, StyleSheet, Pressable} from 'react-native';
 
 const Collections = ({navigation}) => {
     return(
-        <Pressable>
+        <Pressable onPress = {() => {navigation.navigate('CollectionImages')}}>
         <Text>
             Collections
         </Text>
