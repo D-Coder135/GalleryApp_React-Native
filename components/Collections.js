@@ -32,6 +32,10 @@ const styles = StyleSheet.create({
         backgroundColor: 'black',
     },
 
+    headerText: {
+
+    },
+
     body: {
         flex: 9,
     }
