@@ -33,9 +33,10 @@ const styles = StyleSheet.create({
     },
 
     headerText: {
+        flex: 1,
         color: 'white',
         fontSize: 32,
-        
+
     },
 
     body: {
