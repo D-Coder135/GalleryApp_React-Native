@@ -64,5 +64,6 @@ const styles = StyleSheet.create({
         borderColor: 'red',
         borderWidth: 1,
         height: 200,
+        width: '48%',
     }
 });
