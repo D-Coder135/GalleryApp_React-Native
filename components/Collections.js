@@ -25,6 +25,6 @@ const styles = StyleSheet.create({
     },
 
     body: {
-
+        flex: 9,
     }
 });
