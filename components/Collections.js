@@ -6,7 +6,7 @@ const Collections = ({navigation}) => {
         <View style = {styles.collectionComponent}>
             <View style = {styles.header}></View>
 
-            <View></View>
+            <View style = {styles.body}></View>
         </View>
     )
 }
