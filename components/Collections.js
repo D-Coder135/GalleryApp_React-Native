@@ -1,5 +1,5 @@
 import React , {useState} from 'react';
-import {Text, StyleSheet, Pressable, View, ScrollView} from 'react-native';
+import {Text, StyleSheet, Pressable, View, ScrollView, Image} from 'react-native';
 import Icon from 'react-native-vector-icons/Entypo';
 
 const Collections = ({navigation}) => {
