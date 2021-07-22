@@ -7,7 +7,7 @@ const Collections = ({navigation}) => {
     return(
         <View style = {styles.collectionComponent}>
             <View style = {styles.header}>
-                <Text>
+                <Text style = {styles.headerText}>
                     Collections
                     <Icon name = {'images'} size = {35} color = {'white'}/>
                 </Text>
