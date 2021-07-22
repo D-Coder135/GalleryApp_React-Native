@@ -18,7 +18,10 @@ const Collections = ({navigation}) => {
 
             <View style = {styles.body}>
                 <ScrollView style = {styles.scroll} contentContainerStyle = {styles.contentContainerStyle}>
-                    <Pressable style = {styles.collection} android_ripple = {{color: 'lightgray', borderless: true}}></Pressable>
+                    {collection.map(() => (
+                        <Pressable style = {styles.collection} android_ripple = {{color: 'lightgray', borderless: true}}></Pressable>
+                    ))
+                    }
                     {/* <Pressable style = {styles.collection} android_ripple = {{color: 'lightgray', borderless: true}}></Pressable> */}
                 </ScrollView>
             </View>
