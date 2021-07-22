@@ -14,7 +14,9 @@ const Collections = ({navigation}) => {
             </View>
 
             <View style = {styles.body}>
-                <ScrollView></ScrollView>
+                <ScrollView style = {styles.scroll}>
+
+                </ScrollView>
             </View>
         </View>
     )
