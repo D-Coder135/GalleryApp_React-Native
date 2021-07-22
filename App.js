@@ -17,7 +17,7 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style="auto" />
       <NavigationContainer>
-        <Stack.Navigator>
+        <Stack.Navigator screenOptions = {{headerShown: false}}>
            <Stack.Screen name = {'Collections'} component = {Collections} />
            <Stack.Screen name = {'CollectionImages'} component = {CollectionImages} />
            <Stack.Screen name = {'PreviewImage'} component = {PreviewImage} />
