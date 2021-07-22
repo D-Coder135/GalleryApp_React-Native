@@ -15,6 +15,7 @@ export default Collections;
 
 const styles = StyleSheet.create({
     collectionComponent: {
+        flex: 1,
         
     }
 });
