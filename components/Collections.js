@@ -3,6 +3,10 @@ import {Text, StyleSheet, Pressable, View, ScrollView} from 'react-native';
 import Icon from 'react-native-vector-icons/Entypo';
 
 const Collections = ({navigation}) => {
+
+    const [collection, setCollection] = useState([]);
+
+
     return(
         <View style = {styles.collectionComponent}>
             <View style = {styles.header}>
