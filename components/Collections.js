@@ -8,6 +8,7 @@ const Collections = ({navigation}) => {
             <View style = {styles.header}>
                 <Text>
                     Collections
+                    <Icon name = {'images'} size = {35} color = {'black'}/>
                 </Text>
             </View>
 
