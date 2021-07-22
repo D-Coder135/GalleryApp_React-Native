@@ -21,10 +21,10 @@ const styles = StyleSheet.create({
     },
 
     header: {
-
+        flex: 1,
     },
 
     body: {
-        
+
     }
 });
