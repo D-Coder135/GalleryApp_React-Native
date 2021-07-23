@@ -24,7 +24,7 @@ const Collections = ({navigation}) => {
                         android_ripple = {{color: 'lightgray', borderless: true}}
                         onPress = {() => {navigation.navigate('CollectionImages', {collectionIndex: index})}}>
                             <Image source = {{uri: `https://picsum.photos/seed/${index + 1}/200`}} style = {styles.image}/>
-                            <Text>{itemName}</Text>
+                            <Text style = {styles.collectionName}>{itemName}</Text>
                         </Pressable>
                     ))
                     }
