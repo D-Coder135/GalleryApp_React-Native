@@ -12,7 +12,9 @@ const CollectionImages = ({navigation}) => {
                     Images
                     <Icon name = {'image'} size = {35} color = {'white'}/>
                 </Text>
-                <Pressable></Pressable>
+                <Pressable style = {styles.backButton}>
+
+                </Pressable>
             </View>
 
             <View style = {styles.body}>
