@@ -6,9 +6,30 @@ import axios from 'axios';
 const CollectionImages = ({navigation}) => {
     const [collection, setCollection] = useState(Array.from({length: 10}).fill(undefined));
     return(
-        <Text>
-            CollectionImages
-        </Text>
+        <View style = {styles.collectionComponent}>
+            <View style = {styles.header}>
+                <Text style = {styles.headerText}>
+                    Collections
+                    <Icon name = {'images'} size = {35} color = {'white'}/>
+                </Text>
+            </View>
+
+            <View style = {styles.body}>
+                <ScrollView style = {styles.scroll} contentContainerStyle = {styles.contentContainerStyle}>
+                    {collection.map((itemName, index) => (
+                        <Pressable 
+                        style = {styles.collection} 
+                        android_ripple = {{color: 'lightgray', borderless: true}}
+                        onPress = {() => {navigation.navigate('CollectionImages', {collectionIndex: index})}}>
+                            <Image source = {{uri: `https://picsum.photos/seed/${index + 1}/200`}} style = {styles.image}/>
+                            <Text style = {styles.collectionName}>{itemName}</Text>
+                        </Pressable>
+                    ))
+                    }
+                    {/* <Pressable style = {styles.collection} android_ripple = {{color: 'lightgray', borderless: true}}></Pressable> */}
+                </ScrollView>
+            </View>
+        </View>
     );
 }
 
