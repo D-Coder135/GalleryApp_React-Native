@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
         // borderColor: 'red',
         // borderWidth: 1,
         height: 150,
-        width: '48%',
+        width: '33.33%',
         borderRadius: 20,
         marginBottom: 10,
     },
