@@ -94,7 +94,8 @@ const styles = StyleSheet.create({
     },
 
     backButton: {
-        position: 'absolute'
+        position: 'absolute',
+        top: 0,
     },
 
     collectionName: {
