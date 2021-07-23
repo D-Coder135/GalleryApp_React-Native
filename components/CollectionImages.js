@@ -79,8 +79,8 @@ const styles = StyleSheet.create({
     },
 
     collection: {
-        borderColor: 'red',
-        borderWidth: 1,
+        // borderColor: 'red',
+        // borderWidth: 1,
         height: 200,
         width: '48%',
         borderRadius: 20,
