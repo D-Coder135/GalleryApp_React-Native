@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {Text, StyleSheet, Pressable, View, ScrollView, Image} from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 const CollectionImages = () => {
     return(
