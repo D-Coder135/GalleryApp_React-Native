@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {Text, StyleSheet, Pressable,} from 'react-native';
+import {Text, StyleSheet, Pressable, View,} from 'react-native';
 
 const CollectionImages = () => {
     return(
