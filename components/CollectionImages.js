@@ -29,7 +29,7 @@ const CollectionImages = ({navigation}) => {
                         android_ripple = {{color: 'lightgray', borderless: true}}
                         >
                             <Image source = {{uri: `https://picsum.photos/seed/${index + 800}/200`}} style = {styles.image}/>
-                            <Text style = {styles.collectionName}>{itemName}</Text>
+                            {/* <Text style = {styles.collectionName}>{itemName}</Text> */}
                         </Pressable>
                     ))
                     }
