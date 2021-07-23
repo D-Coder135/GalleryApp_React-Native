@@ -4,7 +4,7 @@ import Icon from 'react-native-vector-icons/Entypo';
 
 const Collections = ({navigation}) => {
 
-    const [collection, setCollection] = useState(['Camera', 'WhatsAppImages', 'Instagram', 'Facebook', 'Downloads', 'Telegram']);
+    const [collection, setCollection] = useState(['Camera', 'WhatsAppImages', 'Instagram', 'Facebook', 'Downloads', 'Telegram', 'Backgrounds', 'Wallpapers']);
 
     // Array.from({length: 10}).fill(undefined)
 
@@ -69,7 +69,6 @@ const styles = StyleSheet.create({
     },
 
     contentContainerStyle: {
-        flex: 1,
         flexDirection: 'row',
         justifyContent: 'space-between',
         padding: 10,
