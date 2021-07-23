@@ -98,8 +98,8 @@ const styles = StyleSheet.create({
         top: 0,
         height: '100%',
         width: '20%',
-        padding: 20,
-        justifyContent: 'center'
+        padding: 15,
+        justifyContent: 'center',
     },
 
     collectionName: {
