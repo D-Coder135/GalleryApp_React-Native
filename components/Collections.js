@@ -98,6 +98,7 @@ const styles = StyleSheet.create({
         borderBottomRightRadius: 20,
         borderBottomLeftRadius: 20,
         color: 'white',
-        textAlign: 'center'
+        textAlign: 'center',
+        textAlignVertical: 'center'
     }
 });
