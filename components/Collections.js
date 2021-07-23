@@ -93,5 +93,6 @@ const styles = StyleSheet.create({
 
     collectionName: {
         position: 'absolute',
+        width: '100%',
     }
 });
