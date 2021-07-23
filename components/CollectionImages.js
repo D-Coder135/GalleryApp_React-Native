@@ -25,7 +25,7 @@ const CollectionImages = ({navigation}) => {
                 <ScrollView style = {styles.scroll} contentContainerStyle = {styles.contentContainerStyle}>
                     {collection.map((item, index) => (
                         <Pressable 
-                        style = {styles.collection} 
+                        style = {{...styles.collection}} 
                         android_ripple = {{color: 'lightgray', borderless: true}}
                         onPress = {() => {navigation.navigate('CollectionImages', {collectionIndex: index})}}>
                             <Image source = {{uri: `https://picsum.photos/seed/${index + 1}/200`}} style = {styles.image}/>
