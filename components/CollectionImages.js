@@ -17,7 +17,7 @@ const CollectionImages = ({navigation}) => {
                 android_ripple = {{color: 'gray', borderless: true}}
                 onPress = {() => {navigation.navigate('Collections')}}
                 >
-
+                    <Icon></Icon>
                 </Pressable>
             </View>
 
