@@ -99,6 +99,7 @@ const styles = StyleSheet.create({
         borderBottomLeftRadius: 20,
         color: 'white',
         textAlign: 'center',
-        textAlignVertical: 'center'
+        textAlignVertical: 'center',
+        backgroundColor: '#09090963',
     }
 });
