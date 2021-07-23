@@ -65,6 +65,7 @@ const styles = StyleSheet.create({
 
     scroll: {
         // backgroundColor: 'red',
+        flex: 1,
     },
 
     contentContainerStyle: {
