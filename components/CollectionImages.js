@@ -3,7 +3,7 @@ import {Text, StyleSheet, Pressable, View, ScrollView, Image} from 'react-native
 import Icon from 'react-native-vector-icons/FontAwesome';
 import axios from 'axios';
 
-const CollectionImages = () => {
+const CollectionImages = ({navigation}) => {
     return(
         <Text>
             CollectionImages
