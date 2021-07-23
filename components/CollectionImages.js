@@ -99,6 +99,7 @@ const styles = StyleSheet.create({
         height: '100%',
         width: '20%',
         padding: 20,
+        justifyContent: 'center'
     },
 
     collectionName: {
