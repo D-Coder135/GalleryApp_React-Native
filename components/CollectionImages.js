@@ -93,6 +93,10 @@ const styles = StyleSheet.create({
         borderRadius: 20,
     },
 
+    backButton: {
+        
+    },
+
     collectionName: {
         position: 'absolute',
         width: '100%',
