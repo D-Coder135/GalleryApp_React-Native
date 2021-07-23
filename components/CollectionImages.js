@@ -97,7 +97,8 @@ const styles = StyleSheet.create({
         position: 'absolute',
         top: 0,
         height: '100%',
-        width: '20%'
+        width: '20%',
+        padding: 20,
     },
 
     collectionName: {
