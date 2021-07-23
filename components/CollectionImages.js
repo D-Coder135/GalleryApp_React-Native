@@ -15,6 +15,7 @@ const CollectionImages = ({navigation}) => {
                 <Pressable 
                 style = {styles.backButton}
                 android_ripple = {{color: 'gray', borderless: true}}
+                onPress = {() => {navigation.navigate('Collections')}}
                 >
 
                 </Pressable>
