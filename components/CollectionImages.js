@@ -12,7 +12,10 @@ const CollectionImages = ({navigation}) => {
                     Images
                     <Icon name = {'image'} size = {35} color = {'white'}/>
                 </Text>
-                <Pressable style = {styles.backButton}>
+                <Pressable 
+                style = {styles.backButton}
+                android_ripple = {{color: 'gray', borderless: true}}
+                >
 
                 </Pressable>
             </View>
