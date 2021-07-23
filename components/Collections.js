@@ -97,6 +97,7 @@ const styles = StyleSheet.create({
         bottom: 0,
         borderBottomRightRadius: 20,
         borderBottomLeftRadius: 20,
-        color: 'white'
+        color: 'white',
+        textAlign: 'center'
     }
 });
