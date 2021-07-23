@@ -9,8 +9,8 @@ const CollectionImages = ({navigation}) => {
         <View style = {styles.collectionComponent}>
             <View style = {styles.header}>
                 <Text style = {styles.headerText}>
-                    Collections
-                    <Icon name = {'images'} size = {35} color = {'white'}/>
+                    Images
+                    <Icon name = {'image'} size = {35} color = {'white'}/>
                 </Text>
             </View>
 
