@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {Text, StyleSheet, Pressable, View, ScrollView, Image} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
+import axios from 'axios';
 
 const CollectionImages = () => {
     return(
