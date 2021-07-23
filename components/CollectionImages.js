@@ -23,7 +23,7 @@ const CollectionImages = ({navigation}) => {
 
             <View style = {styles.body}>
                 <ScrollView style = {styles.scroll} contentContainerStyle = {styles.contentContainerStyle}>
-                    {collection.map((itemName, index) => (
+                    {collection.map((item, index) => (
                         <Pressable 
                         style = {styles.collection} 
                         android_ripple = {{color: 'lightgray', borderless: true}}
