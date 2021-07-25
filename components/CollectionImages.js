@@ -4,7 +4,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import axios from 'axios';
 
 const CollectionImages = ({navigation}) => {
-    const [collection, setCollection] = useState(Array.from({length: 10}).fill(undefined));
+    const [collection, setCollection] = useState([]);
     return(
         <View style = {styles.collectionComponent}>
             <View style = {styles.header}>
