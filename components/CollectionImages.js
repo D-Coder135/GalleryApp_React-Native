@@ -15,6 +15,10 @@ const CollectionImages = ({navigation, route}) => {
             });
     }, []);
 
+    const isCloseToBottom = ({layoutMeasurement, contentOffset, contentSize}) => {
+        
+    }
+
     return(
         <View style = {styles.collectionComponent}>
             <View style = {styles.header}>
