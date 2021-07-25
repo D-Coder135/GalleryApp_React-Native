@@ -37,5 +37,14 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         textAlignVertical: 'center',
     },
+
+    backButton: {
+        position: 'absolute',
+        top: 0,
+        height: '100%',
+        width: '20%',
+        padding: 15,
+        justifyContent: 'center',
+    },
     
 });
