@@ -35,7 +35,8 @@ const CollectionImages = ({navigation, route}) => {
                 <ScrollView style = {styles.scroll} contentContainerStyle = {styles.contentContainerStyle}>
                     {images.map((item, index) => 
                     {
-                        const imageURL = item.download_url;
+                        var imageURL = item.download_url;
+                        imageURL = imageURL.substring(0, imageURL.lastIndexOf('/'));
                         return(
                         <Pressable 
                         style = {{...styles.collection}} 
