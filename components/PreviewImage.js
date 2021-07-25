@@ -2,7 +2,7 @@ import React from 'react';
 import {Text, StyleSheet, View, Pressable} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-const PreviewImage = () => {
+const PreviewImage = (props) => {
     return(
         <View style = {styles.previewImage}>
             <View style = {styles.header}>
@@ -13,7 +13,7 @@ const PreviewImage = () => {
                 <Pressable 
                 style = {styles.backButton}
                 android_ripple = {{color: 'gray', borderless: true}}
-                onPress = {() => {navigation.navigate('Collections')}}
+                onPress = {() => {props.navigation.navigate('Collections')}}
                 >
                     <Icon name = {'caret-left'} size = {50} color = {'white'}/>
                 </Pressable>
