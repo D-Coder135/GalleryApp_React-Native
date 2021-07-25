@@ -37,6 +37,8 @@ const CollectionImages = ({navigation, route}) => {
                     {
                         var imageURL = item.download_url;
                         imageURL = imageURL.substring(0, imageURL.lastIndexOf('/'));
+                        imageURL = imageURL.substring(0, imageURL.lastIndexOf('/'));
+                        
                         return(
                         <Pressable 
                         style = {{...styles.collection}} 
