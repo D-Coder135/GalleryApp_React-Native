@@ -25,5 +25,17 @@ const PreviewImage = () => {
 export default PreviewImage;
 
 const styles = StyleSheet.create({
+    header: {
+        flex: 1,
+        backgroundColor: 'black',
+    },
+
+    headerText: {
+        flex: 1,
+        color: 'white',
+        fontSize: 32,
+        textAlign: 'center',
+        textAlignVertical: 'center',
+    },
     
 });
