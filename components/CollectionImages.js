@@ -7,7 +7,9 @@ const CollectionImages = ({navigation}) => {
     const [images, setImages] = useState([]);
 
     useEffect(() => {
-
+        axios.get(`https://picsum.photos/v2/list?page=${
+            pageNumber
+            }&limit=20`);
     }, []);
 
     return(
