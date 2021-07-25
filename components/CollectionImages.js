@@ -3,12 +3,12 @@ import {Text, StyleSheet, Pressable, View, ScrollView, Image} from 'react-native
 import Icon from 'react-native-vector-icons/FontAwesome';
 import axios from 'axios';
 
-const CollectionImages = ({navigation}) => {
+const CollectionImages = ({navigation, route}) => {
     const [images, setImages] = useState([]);
 
     useEffect(() => {
         axios.get(`https://picsum.photos/v2/list?page=${
-            pageNumber
+            route.params.collectionIndex
             }&limit=20`).then();
     }, []);
 
