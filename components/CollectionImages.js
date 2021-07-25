@@ -11,6 +11,7 @@ const CollectionImages = ({navigation, route}) => {
             route.params.collectionIndex
             }&limit=20`).then((response) => {
                 const data = response && response.data;
+                setImages(data);
             });
     }, []);
 
