@@ -4,7 +4,19 @@ import {Text, StyleSheet, View} from 'react-native';
 const PreviewImage = () => {
     return(
         <View style = {styles.previewImage}>
-
+            <View style = {styles.header}>
+                <Text style = {styles.headerText}>
+                    Images
+                    <Icon name = {'image'} size = {35} color = {'white'}/>
+                </Text>
+                <Pressable 
+                style = {styles.backButton}
+                android_ripple = {{color: 'gray', borderless: true}}
+                onPress = {() => {navigation.navigate('Collections')}}
+                >
+                    <Icon name = {'caret-left'} size = {50} color = {'white'}/>
+                </Pressable>
+            </View>
         </View>
     );
 }
