@@ -3,7 +3,9 @@ import {Text, StyleSheet} from 'react-native';
 
 const PreviewImage = () => {
     return(
-        
+        <View>
+            
+        </View>
     );
 }
 
