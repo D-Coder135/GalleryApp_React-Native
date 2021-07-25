@@ -25,6 +25,10 @@ const PreviewImage = () => {
 export default PreviewImage;
 
 const styles = StyleSheet.create({
+    previewImage: {
+        flex: 1,
+    },
+
     header: {
         flex: 1,
         backgroundColor: 'black',
