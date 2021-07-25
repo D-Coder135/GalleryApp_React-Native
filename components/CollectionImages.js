@@ -9,7 +9,7 @@ const CollectionImages = ({navigation, route}) => {
 
     useEffect(() => {
         axios.get(`https://picsum.photos/v2/list?page=${
-            route.params.collectionIndex
+            pageNumber
             }&limit=20`).then((response) => {
                 const data = response && response.data;
                 setImages([...images, ...data]);
@@ -18,7 +18,7 @@ const CollectionImages = ({navigation, route}) => {
 
     useEffect(() => {
         axios.get(`https://picsum.photos/v2/list?page=${
-            route.params.collectionIndex
+            pageNumber
             }&limit=20`).then((response) => {
                 const data = response && response.data;
                 setImages([...images, ...data]);
