@@ -33,7 +33,9 @@ const CollectionImages = ({navigation, route}) => {
 
             <View style = {styles.body}>
                 <ScrollView style = {styles.scroll} contentContainerStyle = {styles.contentContainerStyle}>
-                    {images.map((item, index) => (
+                    {images.map((item, index) => 
+                    {
+                        return(
                         <Pressable 
                         style = {{...styles.collection}} 
                         android_ripple = {{color: 'lightgray', borderless: true}}
@@ -41,7 +43,7 @@ const CollectionImages = ({navigation, route}) => {
                             <Image source = {{uri: item.download_url}} style = {styles.image}/>
                             {/* <Text style = {styles.collectionName}>{itemName}</Text> */}
                         </Pressable>
-                    ))
+                    )})
                     }
                     {/* <Pressable style = {styles.collection} android_ripple = {{color: 'lightgray', borderless: true}}></Pressable> */}
                 </ScrollView>
