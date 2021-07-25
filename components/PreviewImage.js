@@ -20,7 +20,7 @@ const PreviewImage = (props) => {
             </View>
 
             <View style = {styles.body}>
-                <Image style = {styles.image}></Image>
+                <Image source = {{uri: ''}} style = {styles.image}></Image>
             </View>
         </View>
     );
