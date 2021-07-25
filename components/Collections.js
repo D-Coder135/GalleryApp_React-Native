@@ -13,7 +13,7 @@ const Collections = ({navigation}) => {
         <View style = {styles.collectionComponent}>
             <View style = {styles.header}>
                 <Text style = {styles.headerText}>
-                    Collections
+                    Gallery
                     <Icon name = {'images'} size = {35} color = {'white'}/>
                 </Text>
             </View>
@@ -24,7 +24,7 @@ const Collections = ({navigation}) => {
                         <Pressable 
                         style = {styles.collection} 
                         android_ripple = {{color: 'lightgray', borderless: true}}
-                        onPress = {() => {navigation.navigate('CollectionImages', {collectionIndex: index}, {collectionName: itemName})}}>
+                        onPress = {() => {navigation.navigate('CollectionImages', {collectionIndex: index})}}>
                             <Image source = {{uri: `https://picsum.photos/seed/${index + 1}/200`}} style = {styles.image}/>
                             <Text style = {styles.collectionName}>{itemName}</Text>
                         </Pressable>

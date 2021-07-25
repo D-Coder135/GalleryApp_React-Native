@@ -34,7 +34,7 @@ const CollectionImages = ({navigation, route}) => {
         <View style = {styles.collectionComponent}>
             <View style = {styles.header}>
                 <Text style = {styles.headerText}>
-                    Images
+                    Collections
                     <Icon name = {'image'} size = {35} color = {'white'}/>
                 </Text>
                 <Pressable 
