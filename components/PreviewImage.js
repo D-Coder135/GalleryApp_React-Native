@@ -20,7 +20,7 @@ const PreviewImage = (props) => {
             </View>
 
             <View style = {styles.body}>
-                <Image source = {{uri: ''}} style = {styles.image}></Image>
+                <Image source = {{uri: props.route && props.route.params && props.route.params.previewURL}} style = {styles.image}></Image>
             </View>
         </View>
     );
