@@ -9,7 +9,9 @@ const CollectionImages = ({navigation, route}) => {
     useEffect(() => {
         axios.get(`https://picsum.photos/v2/list?page=${
             route.params.collectionIndex
-            }&limit=20`).then();
+            }&limit=20`).then((response) => {
+                
+            });
     }, []);
 
     return(
