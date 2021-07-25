@@ -23,7 +23,7 @@ const CollectionImages = ({navigation, route}) => {
                 const data = response && response.data;
                 setImages([...images, ...data]);
             });
-    }, []);
+    }, [pageNumber]);
 
     const isCloseToBottom = ({layoutMeasurement, contentOffset, contentSize}) => {
         const paddingToBottom = 20;
