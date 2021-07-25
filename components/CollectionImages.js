@@ -4,7 +4,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import axios from 'axios';
 
 const CollectionImages = ({navigation}) => {
-    const [collection, setCollection] = useState([]);
+    const [images, setImages] = useState([]);
     return(
         <View style = {styles.collectionComponent}>
             <View style = {styles.header}>
@@ -23,7 +23,7 @@ const CollectionImages = ({navigation}) => {
 
             <View style = {styles.body}>
                 <ScrollView style = {styles.scroll} contentContainerStyle = {styles.contentContainerStyle}>
-                    {collection.map((item, index) => (
+                    {images.map((item, index) => (
                         <Pressable 
                         style = {{...styles.collection}} 
                         android_ripple = {{color: 'lightgray', borderless: true}}
