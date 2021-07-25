@@ -13,11 +13,13 @@ const PreviewImage = (props) => {
                 <Pressable 
                 style = {styles.backButton}
                 android_ripple = {{color: 'gray', borderless: true}}
-                onPress = {() => {props.navigation.navigate('CollectionsImages')}}
+                onPress = {() => {props.navigation.navigate('CollectionImages')}}
                 >
                     <Icon name = {'caret-left'} size = {50} color = {'white'}/>
                 </Pressable>
             </View>
+
+            <View></View>
         </View>
     );
 }
