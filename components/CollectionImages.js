@@ -44,7 +44,7 @@ const CollectionImages = ({navigation, route}) => {
                         style = {{...styles.collection}} 
                         android_ripple = {{color: 'lightgray', borderless: true}}
                         >
-                            <Image source = {{uri: item.download_url}} style = {styles.image}/>
+                            <Image source = {{uri: imageURL}} style = {styles.image}/>
                             {/* <Text style = {styles.collectionName}>{itemName}</Text> */}
                         </Pressable>
                     )})
