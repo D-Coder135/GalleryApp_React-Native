@@ -16,6 +16,7 @@ const CollectionImages = ({navigation, route}) => {
     }, []);
 
     const isCloseToBottom = ({layoutMeasurement, contentOffset, contentSize}) => {
+        const paddingToBottom = 20;
         
     }
 
