@@ -19,7 +19,9 @@ const PreviewImage = (props) => {
                 </Pressable>
             </View>
 
-            <View style = {styles.body}></View>
+            <View style = {styles.body}>
+                <Image></Image>
+            </View>
         </View>
     );
 }
