@@ -41,7 +41,7 @@ const CollectionImages = ({navigation, route}) => {
                         imageURL = imageURL + '/200';
                         return(
                         <Pressable 
-                        onPress = {() => {navigation.navigate('PreviewImage')}}
+                        onPress = {() => {navigation.navigate('PreviewImage'), {previewURL: item.download_url}}}
                         style = {{...styles.collection}} 
                         android_ripple = {{color: 'lightgray', borderless: true}}
                         >
