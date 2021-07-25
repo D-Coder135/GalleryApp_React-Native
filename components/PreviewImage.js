@@ -7,7 +7,7 @@ const PreviewImage = (props) => {
         <View style = {styles.previewImage}>
             <View style = {styles.header}>
                 <Text style = {styles.headerText}>
-                    Images
+                    Preview
                     <Icon name = {'image'} size = {35} color = {'white'}/>
                 </Text>
                 <Pressable 
