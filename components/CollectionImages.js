@@ -7,14 +7,14 @@ const CollectionImages = ({navigation, route}) => {
     const [images, setImages] = useState([]);
     const [pageNumber, setPageNumber] = useState((route && route.params && route.params.collectionIndex) || 0);
 
-    useEffect(() => {
-        axios.get(`https://picsum.photos/v2/list?page=${
-            pageNumber
-            }&limit=20`).then((response) => {
-                const data = response && response.data;
-                setImages([...images, ...data]);
-            });
-    }, []);
+    // useEffect(() => {
+    //     axios.get(`https://picsum.photos/v2/list?page=${
+    //         pageNumber
+    //         }&limit=20`).then((response) => {
+    //             const data = response && response.data;
+    //             setImages([...images, ...data]);
+    //         });
+    // }, []);
 
     useEffect(() => {
         axios.get(`https://picsum.photos/v2/list?page=${
