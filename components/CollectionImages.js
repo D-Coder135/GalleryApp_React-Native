@@ -47,7 +47,15 @@ const CollectionImages = ({navigation, route}) => {
             </View>
 
             <View style = {styles.body}>
-                <ScrollView style = {styles.scroll} contentContainerStyle = {styles.contentContainerStyle}>
+                <ScrollView 
+                 onScroll={(event) => {
+                    console.log('scrolling')
+                    if (isCloseToBottom(event.nativeEvent)) {
+                      setPageNumber(pageNumber + 1);
+                      // setActivityIndicator(true);
+                    }
+                  }}
+                style = {styles.scroll} contentContainerStyle = {styles.contentContainerStyle}>
                     {images.map((item, index) => 
                     {
                         var imageURL = item.download_url;
