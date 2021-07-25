@@ -10,7 +10,7 @@ const CollectionImages = ({navigation, route}) => {
         axios.get(`https://picsum.photos/v2/list?page=${
             route.params.collectionIndex
             }&limit=20`).then((response) => {
-                
+                const data = response && response.data;
             });
     }, []);
 
