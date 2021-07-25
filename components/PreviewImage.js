@@ -1,5 +1,6 @@
 import React from 'react';
 import {Text, StyleSheet, View, Pressable} from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 const PreviewImage = () => {
     return(
