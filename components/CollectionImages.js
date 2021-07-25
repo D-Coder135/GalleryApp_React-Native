@@ -15,6 +15,15 @@ const CollectionImages = ({navigation, route}) => {
             });
     }, []);
 
+    useEffect(() => {
+        axios.get(`https://picsum.photos/v2/list?page=${
+            route.params.collectionIndex
+            }&limit=20`).then((response) => {
+                const data = response && response.data;
+                setImages([...images, ...data]);
+            });
+    }, []);
+
     const isCloseToBottom = ({layoutMeasurement, contentOffset, contentSize}) => {
         const paddingToBottom = 20;
         return layoutMeasurement.height + contentOffset.y >= contentSize.height - paddingToBottom;
