@@ -5,6 +5,11 @@ import axios from 'axios';
 
 const CollectionImages = ({navigation}) => {
     const [images, setImages] = useState([]);
+
+    useEffect(() => {
+
+    }, []);
+
     return(
         <View style = {styles.collectionComponent}>
             <View style = {styles.header}>
